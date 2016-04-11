@@ -1,4 +1,4 @@
-# googleCloudStorageR
+# ovhCloudStorageR
 
 R library for interacting with google cloud storage
 
@@ -7,7 +7,7 @@ R library for interacting with google cloud storage
 ```r
 library(shiny)
 library(googleAuthR)
-library(googleCloudStorageR)
+library(ovhCloudStorageR)
 options(googleAuthR.scopes.selected = "https://www.googleapis.com/auth/devstorage.full_control")
 
 ## you need to start Shiny app on port 1221
